@@ -7,7 +7,7 @@ Notes on data science, machine learning, artificial intelligence, history, and s
 - Rewrite Bio
 - Add two licenses
 
-## To Deplay
+## To Deploy
 
 1. Run make.ipynb
 2. Commit to master branch
