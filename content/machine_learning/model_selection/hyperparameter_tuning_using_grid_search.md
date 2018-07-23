@@ -46,7 +46,7 @@ logistic = linear_model.LogisticRegression()
 penalty = ['l1', 'l2']
 
 # Create regularization hyperparameter space
-C = np.logspace(0, 4, 10)
+C = np.logspace(0, 4, 10).rvs(10)
 
 # Create hyperparameter options
 hyperparameters = dict(C=C, penalty=penalty)
