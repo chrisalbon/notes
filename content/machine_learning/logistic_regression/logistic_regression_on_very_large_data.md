@@ -6,9 +6,9 @@ description: "How to train a logistic regression on very large data in scikit-le
 type: technical_note
 draft: false
 ---
-scikit-learn's `LogisticRegression` offers a number of techniques for training a logistic regression, called solvers. Most of the time scikit-learn will select the best solver automatically for us or warn us that you cannot do some thing with that solver. However, there is one particular case we should be aware of. 
+scikit-learn's `LogisticRegression` offers a number of techniques for training a logistic regression, called solvers. Most of the time scikit-learn will select the best solver automatically for us or warn us that you cannot do some thing with that solver. However, there is one particular case we should be aware of.
 
-While an exact explanation is beyond the bounds of this book, stochastic average gradient descent allows us to train a model much faster than other solvers when our data is very large. However, it is also very sensitive to feature scaling to standardizing our features is particularly important. We can set our learning algorithm to use this solver by setting `solver='sag'`.
+While an exact explanation is beyond the bounds of this book, stochastic average gradient descent allows us to train a model much faster than other solvers when our data is very large. However, it is also very sensitive to feature scaling, so standardizing our features is particularly important. We can set our learning algorithm to use this solver by setting `solver='sag'`.
 
 ## Preliminaries
 
