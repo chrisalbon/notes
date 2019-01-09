@@ -28,7 +28,7 @@ matrix = np.array([[1, 2, 3],
 
 
 ```python
-# Calculate the tracre of the matrix
+# Calculate the trace of the matrix
 matrix.diagonal().sum()
 ```
 
