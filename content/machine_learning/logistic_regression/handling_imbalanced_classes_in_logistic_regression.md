@@ -59,7 +59,7 @@ X_std = scaler.fit_transform(X)
 
 
 ```python
-# Create decision tree classifer object
+# Create logistic regression classifer object
 clf = LogisticRegression(random_state=0, class_weight='balanced')
 
 # Train model
