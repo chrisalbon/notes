@@ -21,7 +21,7 @@ The [Boston housing dataset](http://www.cs.toronto.edu/~delve/data/boston/boston
 
 
 ```python
-# Load digits dataset
+# Load dataset
 boston = datasets.load_boston()
 
 # Create feature matrix
