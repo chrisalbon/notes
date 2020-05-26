@@ -6,7 +6,7 @@ description: "random_forest_classifier_example using Scikit."
 type: technical_note
 draft: false
 aliases:
-    - /machine-learning/random_forest_classifier_example_scikit.html
+    - /machine_learning/random_forest_classifier_example_scikit.html
 ---
 This tutorial is based on Yhat's 2013 tutorial on [Random Forests in Python](http://blog.yhat.com/posts/random-forests-in-python.html). If you want a good summary of the theory and uses of random forests, I suggest you check out their guide. In the tutorial below, I annotate, correct, and expand on a short code example of random forests they present at the end of the article. Specifically, I 1) update the code so it runs in the latest version of pandas and Python, 2) write detailed comments explaining what is happening in each step, and 3) expand the code in a number of ways.
 
