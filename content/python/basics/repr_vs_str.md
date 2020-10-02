@@ -23,10 +23,10 @@ class Regiment(object):
         self.date = date
 
     def __repr__(self):
-        return date
+        return self.date
 
     def __str__(self):
-        return str(date)
+        return str(self.date)
 ```
 
 `__repr__` is for the developer. It is string representation of the object and the code needed to reproduce the object. 
