@@ -91,7 +91,7 @@ c
 
 
 
-### Takes modulus using two operands and assign the result to left (a = d % a)
+### Takes modulus using two operands and assign the result to left (d = d % a)
 
 
 ```python
