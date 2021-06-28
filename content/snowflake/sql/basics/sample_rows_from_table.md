@@ -100,7 +100,7 @@ SAMPLE ROW (3 rows);
     </tbody>
 </table>
 
-## Sample With A Need
+## Sample With A Seed
 
 Seeds improve repeatability, when rerun on the same data, samples using the same need value (e.g. `44`) will return the same rows.
 
